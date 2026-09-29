@@ -1,0 +1,41 @@
+benchmark,method,Method,available
+real,Naive,NM,True
+real,dmp_est,DMP,True
+real,dmp_est_r2,DMP2,True
+real,dmp_inf,DMP-inf,True
+real,swe,SWE,True
+real,swe_cavity,Cavity SWE,True
+real,swe_no,SWE-NO,True
+real,swe_no_cavity,Cavity SWE-NO,True
+real,swe_hib_cavity,SWE-HIB-C,True
+real,additive_swe,SWE-add,False
+real,additive_swe_cavity,Cavity SWE-add,False
+real,ALE_heuristic,ALE,True
+real,ALE2,ALE2,True
+real,modified_ALE,IPL,True
+real,modified_ALE2,IPL2,True
+real,SPM,SPM,True
+real,SP1M,SP1M,True
+real,sss,SSS,True
+real,sss_noself,SSS-Noself,False
+real,mia,MIA,False
+synthetic,Naive,NM,True
+synthetic,dmp_est,DMP,True
+synthetic,dmp_est_r2,DMP2,True
+synthetic,dmp_inf,DMP-inf,True
+synthetic,swe,SWE,True
+synthetic,swe_cavity,Cavity SWE,True
+synthetic,swe_no,SWE-NO,True
+synthetic,swe_no_cavity,Cavity SWE-NO,True
+synthetic,swe_hib_cavity,SWE-HIB-C,True
+synthetic,additive_swe,SWE-add,True
+synthetic,additive_swe_cavity,Cavity SWE-add,True
+synthetic,ALE_heuristic,ALE,True
+synthetic,ALE2,ALE2,False
+synthetic,modified_ALE,IPL,True
+synthetic,modified_ALE2,IPL2,False
+synthetic,SPM,SPM,True
+synthetic,SP1M,SP1M,True
+synthetic,sss,SSS,True
+synthetic,sss_noself,SSS-Noself,False
+synthetic,mia,MIA,False

@@ -1,0 +1,2 @@
+method_a,Method A,method_b,Method B,N,A_win_fraction,tie_fraction,median_RMSE_improvement,mean_RMSE_improvement,median_relative_improvement,median_runtime_ratio_A_over_B
+dmp_est_r2,DMP2,dmp_est,DMP,1140,0.9377192982456141,0.0008771929824561404,0.0009441545430216003,0.0033164858158148606,0.11767314673501453,9.329793504199802

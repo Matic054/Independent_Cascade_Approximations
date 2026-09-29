@@ -1,0 +1,2 @@
+method_a,Method A,method_b,Method B,N,A_win_fraction,tie_fraction,median_RMSE_improvement,mean_RMSE_improvement,median_relative_improvement,median_runtime_ratio_A_over_B
+swe_no_cavity,Cavity SWE-NO,swe_no,SWE-NO,2700,0.6933333333333334,0.0,0.0001880428523112999,0.002669147173087358,0.03892131020663252,1.5789289037610064

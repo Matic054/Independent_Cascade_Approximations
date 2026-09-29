@@ -1,0 +1,26 @@
+\begin{table}[t]
+\caption{Pooled held-out performance on the Real-world datasets benchmark. Entries are medians over all successful held-out instance-level evaluations. Lower is better for RMSE, MAE, and runtime; higher is better for Spearman, Pearson, and AUC. The median runtime of MC simulations was 55.628 s.}
+\label{tab:real_world-pooled-metrics}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Method & N & RMSE & MAE & Spearman & Pearson & AUC & Runtime (s) \\
+\midrule
+DMP$_2$ & 1140 & 0.0073 & 0.0031 & 0.99606 & 0.99963 & 1.000000 & 0.5657 \\
+DMP & 1140 & 0.0092 & 0.0037 & 0.99511 & 0.99952 & 1.000000 & 0.03938 \\
+SWE-HIB cavity & 1140 & 0.0102 & 0.0050 & 0.99401 & 0.99936 & 0.999999 & 0.04449 \\
+DMP$_{\infty}$ & 1140 & 0.0153 & 0.0048 & 0.99423 & 0.99895 & 1.000000 & 0.5132 \\
+Cavity SWE-NO & 1140 & 0.0159 & 0.0063 & 0.99165 & 0.99881 & 0.999999 & 0.04645 \\
+Cavity SWE & 1140 & 0.0171 & 0.0097 & 0.99123 & 0.99858 & 0.999996 & 0.09963 \\
+SWE-NO & 1140 & 0.0179 & 0.0070 & 0.99066 & 0.99848 & 0.999999 & 0.03323 \\
+NM & 1140 & 0.0192 & 0.0075 & 0.99130 & 0.99826 & 1.000000 & 0.03017 \\
+SWE & 1140 & 0.0223 & 0.0121 & 0.98812 & 0.99740 & 0.999995 & 0.03454 \\
+SSS & 1140 & 0.0377 & 0.0158 & 0.98607 & 0.99552 & 0.999984 & 0.2383 \\
+IPL2 & 1140 & 0.0730 & 0.0399 & 0.96104 & 0.97765 & 0.999354 & 0.0134 \\
+IPL & 1140 & 0.0798 & 0.0436 & 0.95983 & 0.97752 & 0.991465 & 0.005469 \\
+SP1M & 1140 & 0.0958 & 0.0579 & 0.97283 & 0.96555 & 0.999943 & 0.1493 \\
+ALE & 1140 & 0.1040 & 0.0605 & 0.94423 & 0.96230 & 0.960844 & 0.005098 \\
+ALE2 & 1140 & 0.1080 & 0.0631 & 0.93586 & 0.94878 & 0.968617 & 0.01142 \\
+SPM & 1140 & 0.1997 & 0.1301 & 0.91555 & 0.87167 & 0.998858 & 0.1442 \\
+\bottomrule
+\end{tabular}
+\end{table}

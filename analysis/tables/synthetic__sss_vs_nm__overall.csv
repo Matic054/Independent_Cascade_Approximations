@@ -1,0 +1,2 @@
+method_a,Method A,method_b,Method B,N,A_win_fraction,tie_fraction,median_RMSE_improvement,mean_RMSE_improvement,median_relative_improvement,median_runtime_ratio_A_over_B
+sss,SSS,Naive,NM,2700,0.0,0.0,-0.029009079301917103,-0.0710313618248043,-2.1898485412646194,4.780864028095247

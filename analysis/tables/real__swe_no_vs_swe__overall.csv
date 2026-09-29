@@ -1,0 +1,2 @@
+method_a,Method A,method_b,Method B,N,A_win_fraction,tie_fraction,median_RMSE_improvement,mean_RMSE_improvement,median_relative_improvement,median_runtime_ratio_A_over_B
+swe_no,SWE-NO,swe,SWE,1140,0.9184210526315789,0.0,0.001991231514455251,0.010000754670897215,0.08752209389867599,1.0134791668573917

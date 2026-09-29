@@ -1,0 +1,17 @@
+method,Method,error,ok,total
+ALE_heuristic,ALE,0,2700,2700
+Naive,NM,0,2700,2700
+SP1M,SP1M,0,2700,2700
+SPM,SPM,0,2700,2700
+additive_swe,SWE-add,2,2698,2700
+additive_swe_cavity,Cavity SWE-add,4,2696,2700
+dmp_est,DMP,0,2700,2700
+dmp_est_r2,DMP2,0,2700,2700
+dmp_inf,DMP-inf,0,2700,2700
+modified_ALE,IPL,0,2700,2700
+sss,SSS,0,2700,2700
+swe,SWE,0,2700,2700
+swe_cavity,Cavity SWE,0,2700,2700
+swe_hib_cavity,SWE-HIB-C,0,2700,2700
+swe_no,SWE-NO,0,2700,2700
+swe_no_cavity,Cavity SWE-NO,0,2700,2700

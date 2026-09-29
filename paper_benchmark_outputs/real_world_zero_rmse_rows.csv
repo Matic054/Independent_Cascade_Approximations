@@ -1,0 +1,8 @@
+setting_id,instance_id,dataset,method,params_json,param_T,param_layers,RMSE,MAE,Pearson,Spearman,AUC,runtime_sec,status,error_type,error_message,target_g,seed_fraction
+NetHept__constant__s0.010__g0.60,NetHept__constant__s0.010__g0.60__test__r00,NetHept,swe_hib_cavity,"{""T"":12}",12.0,,0.0,0.0,1.0,1.0,1.0,0.0132267199223861,ok,,,0.6,0.01
+NetHept__constant__s0.010__g0.60,NetHept__constant__s0.010__g0.60__test__r00,NetHept,Naive,"{""T"":13}",13.0,,0.0,0.0,1.0,1.0,1.0,0.0116570950485765,ok,,,0.6,0.01
+NetHept__constant__s0.010__g0.60,NetHept__constant__s0.010__g0.60__test__r00,NetHept,dmp_est_r2,"{""T"":12}",12.0,,0.0,0.0,1.0,1.0,1.0,0.126171859097667,ok,,,0.6,0.01
+NetHept__constant__s0.010__g0.60,NetHept__constant__s0.010__g0.60__test__r00,NetHept,dmp_est,"{""T"":12}",12.0,,0.0,0.0,1.0,1.0,1.0,0.0145558069925755,ok,,,0.6,0.01
+NetHept__constant__s0.010__g0.60,NetHept__constant__s0.010__g0.60__test__r00,NetHept,dmp_inf,{},,,0.0,0.0,1.0,1.0,1.0,0.017187486984767,ok,,,0.6,0.01
+NetHept__constant__s0.010__g0.60,NetHept__constant__s0.010__g0.60__test__r00,NetHept,modified_ALE,"{""T"":14}",14.0,,0.0,0.0,1.0,1.0,1.0,0.004005706985481,ok,,,0.6,0.01
+NetHept__constant__s0.010__g0.60,NetHept__constant__s0.010__g0.60__test__r00,NetHept,ALE_heuristic,"{""T"":15}",15.0,,0.0,0.0,1.0,1.0,1.0,0.0039674560539424,ok,,,0.6,0.01

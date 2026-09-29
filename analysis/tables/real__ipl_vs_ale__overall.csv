@@ -1,0 +1,2 @@
+method_a,Method A,method_b,Method B,N,A_win_fraction,tie_fraction,median_RMSE_improvement,mean_RMSE_improvement,median_relative_improvement,median_runtime_ratio_A_over_B
+modified_ALE,IPL,ALE_heuristic,ALE,1140,0.9692982456140351,0.0008771929824561404,0.0189285726308438,0.024860832061635637,0.2414986353913435,1.0404912264614088

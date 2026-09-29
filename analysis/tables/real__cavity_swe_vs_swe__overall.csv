@@ -1,0 +1,2 @@
+method_a,Method A,method_b,Method B,N,A_win_fraction,tie_fraction,median_RMSE_improvement,mean_RMSE_improvement,median_relative_improvement,median_runtime_ratio_A_over_B
+swe_cavity,Cavity SWE,swe,SWE,1140,0.7394736842105263,0.0008771929824561404,0.0006914232312583499,0.0033517427168199285,0.0705978507866579,2.9642779282708753

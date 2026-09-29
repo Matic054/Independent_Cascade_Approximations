@@ -1,0 +1,26 @@
+\begin{table}[t]
+\caption{Pooled held-out performance on the Synthetic datasets benchmark. Entries are medians over all successful held-out instance-level evaluations. Lower is better for RMSE, MAE, and runtime; higher is better for Spearman, Pearson, and AUC.}
+\label{tab:synthetic-pooled-metrics}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Method & N & RMSE & MAE & Spearman & Pearson & AUC & Runtime (s) \\
+\midrule
+DMP$_2$ & 2700 & 0.0021 & 0.0016 & 0.99931 & 0.99992 & 1.000000 & 0.03201 \\
+DMP & 2700 & 0.0021 & 0.0016 & 0.99923 & 0.99991 & 1.000000 & 0.009151 \\
+DMP$_{\infty}$ & 2700 & 0.0023 & 0.0018 & 0.99924 & 0.99991 & 1.000000 & 0.08248 \\
+Cavity SWE-NO & 2700 & 0.0055 & 0.0039 & 0.99738 & 0.99952 & 1.000000 & 0.007849 \\
+SWE-HIB cavity & 2700 & 0.0059 & 0.0049 & 0.99871 & 0.99984 & 1.000000 & 0.01088 \\
+SWE-NO & 2700 & 0.0060 & 0.0044 & 0.99652 & 0.99944 & 1.000000 & 0.00477 \\
+SWE & 2700 & 0.0085 & 0.0063 & 0.99493 & 0.99904 & 1.000000 & 0.003953 \\
+NM & 2700 & 0.0088 & 0.0065 & 0.99484 & 0.99913 & 1.000000 & 0.003917 \\
+Cavity SWE & 2700 & 0.0109 & 0.0089 & 0.99813 & 0.99971 & 1.000000 & 0.02227 \\
+Cavity SWE-add & 2696 & 0.0191 & 0.0124 & 0.99277 & 0.99693 & 0.999945 & 0.008772 \\
+SWE-add & 2698 & 0.0230 & 0.0160 & 0.98291 & 0.99300 & 0.999889 & 0.001226 \\
+SSS & 2700 & 0.0408 & 0.0372 & 0.99085 & 0.99797 & 1.000000 & 0.02331 \\
+IPL & 2700 & 0.0680 & 0.0535 & 0.95801 & 0.96497 & 0.999667 & 0.0009482 \\
+ALE & 2700 & 0.0989 & 0.0742 & 0.94515 & 0.93441 & 0.993885 & 0.0008016 \\
+SP1M & 2700 & 0.1419 & 0.1210 & 0.93001 & 0.98665 & 1.000000 & 0.02044 \\
+SPM & 2700 & 0.2245 & 0.2014 & 0.84917 & 0.97750 & 1.000000 & 0.01982 \\
+\bottomrule
+\end{tabular}
+\end{table}
